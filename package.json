@@ -1,0 +1,41 @@
+{
+  "name": "sh13ldme",
+  "version": "1.0.0",
+  "description": "All In One Security And Privacy Editor For Windows 10 & 11",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "productName": "SH13LDME©",
+    "copyright": "© 2025 mi-lrn & async-wei",
+    "win": {
+      "icon": "assets/logo.png",
+      "target": {
+        "target": "default",
+        "arch": [
+          "x64",
+          "ia32",
+          "arm64"
+        ]
+      },
+      "requestedExecutionLevel": "requireAdministrator"
+    },
+    "nsis": {
+      "license": "LICENSE",
+      "oneClick": false,
+      "perMachine": true,
+      "allowElevation": true,
+      "buildUniversalInstaller": false
+    }
+  },
+  "keywords": [],
+  "author": "mi-lrn & async-wei",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^37.2.3",
+    "electron-builder": "^26.0.12"
+  }
+}

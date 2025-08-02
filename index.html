@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SH13LDME&copy;</title>
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline';
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+        font-src 'self' https://fonts.gstatic.com;
+        img-src 'self' data: file:;
+        connect-src 'none';
+        object-src 'none';
+        media-src 'none';
+        frame-src 'none';
+        worker-src 'none';
+        child-src 'none';
+        form-action 'none';
+        base-uri 'self';
+        manifest-src 'none';
+    ">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="assets/logo.png" as="image">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="tabs">
+            <button id="home-button" class="tab-button active" onclick="showTab('home')">Home</button>
+            <button id="search-button" class="tab-button" onclick="showTab('search')">Search Endpoints</button>
+            <button id="secure-button" class="tab-button" onclick="showTab('secure')">Secure Endpoints</button>
+            <button id="optional-button" class="tab-button" onclick="showTab('optional')">Optional Endpoints</button>
+            <button id="insecure-button" class="tab-button" onclick="showTab('insecure')">Insecure Endpoints</button>
+        </nav>
+        <main class="main-content">
+            <div id="home" class="endpoints-tab active">
+                <div class="home-container">
+                    <h1 id="mainheader">SH13LD@ME:~/home</h1>
+                    <p class="subtitle">Made by mi-lrn and async-wei</p>
+                    <div style="position: relative;">
+                        <div class="status-pulse"></div>
+                        <button id="scan-button" class="scan-button">
+                            <img src="assets/logo.png" alt="Shield Icon" class="shield-icon">
+                            <span class="button-text">Scan Now</span>
+                        </button>
+                    </div> 
+                    <div class="documentation-container">
+                        <div id="button-documentation" class="button-documentation" onclick="openDocumentation()">
+                            <img src="assets/documentation.png" alt="Documentation" class="icon">
+                            <span class="documentation-tooltip">Documentation</span>
+                        </div>
+                    </div>
+                    <div class="backup-container">
+                        <div id="button-backup" class="button-backup" onclick="backup()">
+                            <img src="assets/backup.png" alt="Backup" class="icon">
+                            <span class="backup-tooltip">Create Backup</span>
+                        </div>
+                        <div id="button-import" class="button-import" onclick="importBackup()">
+                            <img src="assets/importbackup.png" alt="Import Backup" class="icon">
+                            <span class="backup-tooltip">Import Backup</span>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div id="search" class="endpoints-tab">
+                <input type="text" id="search-bar" placeholder="Search Endpoints..." oninput="handleSearchInput(event)">
+            </div>
+            <div id="secure" class="endpoints-tab">
+            </div>
+            <div id="optional" class="endpoints-tab">
+            </div>
+            <div id="insecure" class="endpoints-tab">
+            </div>
+        </main>
+    </div>
+    <script src="endpoints.js"></script>
+    <script src="renderer.js"></script>
+</body>
+</html>
