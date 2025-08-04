@@ -16,7 +16,7 @@ Created by **mi-lrn** and **async-wei**
 
 ## Overview
 
-SH13LDME© is an open-source comprehensive Windows privacy and security configuration tool that provides an intuitive interface for managing Windows registry settings that may not be easily available to non-technical users.
+SH13LDME© is an open-source, comprehensive Windows privacy and security configuration tool that provides an intuitive interface for managing Windows registry settings that may not be easily available to non-technical users.
 
 <div align="center" markdown="1">
    <a href="https://your-website-placeholder-url.com">
