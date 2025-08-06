@@ -170,5 +170,5 @@ SH13LDME/
 ## Coming Soon
 
 - App Debloating
-- Integrated Host File Telemetry Blocking
+- Firewall Telemetry Blocking
 - More Endpoints
