@@ -1,5 +1,5 @@
 <div align="center" markdown="1">
-   <img width="1829" height="469" alt="SH13LDME HOME SCREEN" src="https://github.com/user-attachments/assets/6b2091d9-c7b1-4f08-92f1-72663bc225b9" />
+   <img width="1829" height="469" alt="SH13LDME WEBSITE" src="https://github.com/user-attachments/assets/6b2091d9-c7b1-4f08-92f1-72663bc225b9" />
 </div>
 
 # SH13LDME©
@@ -17,7 +17,7 @@ Created by **mi-lrn** and **async-wei**
 SH13LDME© is an open-source, comprehensive Windows privacy and security configuration tool that provides an intuitive interface for managing Windows registry settings that may not be easily available to non-technical users.
 
 <div align="center" markdown="1">
-   <img width="780" height="552" alt="Image" src="https://github.com/user-attachments/assets/31e594fe-f16b-4b74-90cd-5a0bb83492d1" />
+   <img width="780" height="552" alt="SH13LDME HOME SCREEN" src="https://github.com/user-attachments/assets/31e594fe-f16b-4b74-90cd-5a0bb83492d1" />
 </div>
 
 #### Did this app help you? Please consider starring this repository!
